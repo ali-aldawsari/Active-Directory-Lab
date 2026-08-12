@@ -1,27 +1,30 @@
 Active Directory Lab
-
 Overview
 
-A hands-on Active Directory lab built in a simulated corporate environment to practice Windows Server administration, user management, access control, and basic security configuration.
+A hands-on Active Directory lab built in a simulated corporate environment to practice Windows Server administration, user management, access control, and security configuration.
 
 Lab Activities
 
-During this lab, I performed the following tasks:
-
-- Created an Active Directory domain: `ali.local`
-- Created and organized Organizational Units for:
-  - IT
-  - HR
-  - Finance
-- Created and managed Active Directory users and groups
-- Configured a shared folder with access permissions
-- Applied Password Policy
+- Created Active Directory domain: `ali.local`
+- Created Organizational Units (OUs): IT, HR, and Finance
+- Created and managed Users & Security Groups
+- Configured Shared Folder permissions
+- Applied Group Policy security settings
+- Configured Password Policy
 - Configured Account Lockout Policy
-- Configured a Login Banner for security awareness
+- Configured Login Banner
+
+Security Configuration
+
+- Password complexity enabled
+- Minimum password length: 8 characters
+- Maximum password age: 30 days
+- Account lockout after 5 failed login attempts
+- Account lockout duration: 15 minutes
 
 Objectives
 
-The main objective of this lab was to strengthen practical skills in Windows Server and Active Directory administration while understanding how access control and security policies can be applied in a corporate environment.
+The objective of this lab was to develop practical skills in Windows Server and Active Directory administration, with a focus on access control and basic security configuration in a simulated enterprise environment.
 
 Skills Demonstrated
 
@@ -29,21 +32,18 @@ Skills Demonstrated
 - Windows Server Administration
 - User & Group Management
 - Organizational Units (OUs)
-- Access Control & Permissions
-- Shared Folder Configuration
 - Group Policy
-- Password Policy
-- Account Lockout Policy
-- Security Awareness Configuration
+- Access Control & Permissions
+- Password & Account Lockout Policies
+- Basic Windows Security
 
 Lab Environment
 
 - Windows Server
 - Active Directory
-- Group Policy
 - Windows Client
 - VirtualBox
 
- Screenshots
+Screenshots
 
-Screenshots documenting the configuration and lab activities are included in this repository.
+The repository includes screenshots documenting the Active Directory structure, shared folder permissions, password policy, account lockout policy, and overall lab configuration.
